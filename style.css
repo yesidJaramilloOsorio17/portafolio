@@ -54,6 +54,9 @@ html {
   background-image: url(./imgs/background.jpg);
   background-size:auto;
   background-position:center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 *, *::before, *::after {
@@ -96,9 +99,10 @@ margin: var(--mr-3) 0;
  }
 
 .grid--container{
-  max-width: 2024px;
+  max-width: 3024px;
   display: grid;
   margin: 0 var(--mr-3);
+ 
 }
 
 .btn {
@@ -130,7 +134,11 @@ h2{
  }
 
 /*-----------------header y navbar-------------------*/
-
+.navbar__menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .header {
   position: fixed;
