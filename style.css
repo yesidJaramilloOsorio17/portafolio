@@ -51,7 +51,7 @@ html {
   scroll-behavior: smooth;
   background-color: var(--bg-color);
   color: var(--text-primary);
-  background-image: url(./background.jpg);
+  background-image: url(./imgs/background.jpg);
   background-size:auto;
   background-position:center;
 }
@@ -160,18 +160,18 @@ h2{
 
 @keyframes cambiar {
   0% {
-    background-image: url(./jv2.jpg);
+    background-image: url(./imgs/jv2.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 50px;
   }
   50% {
-    background-image: url(./css3.png) ;
+    background-image: url(./imgs/css3.png) ;
     background-position: center;
     background-size: cover;
   }
   100% {
-    background-image: url(./html3.png);
+    background-image: url(./imgs/html3.png);
     background-position: center;
     background-size: cover;
     border-radius: 50px;
@@ -573,7 +573,7 @@ h2{
 
   .home__social{
     position: relative;
-    top: 0;
+    top: 30px;
     left: 0;
     flex-direction: column;
     align-items: center;
@@ -600,23 +600,23 @@ h2{
 
 }
 .bxl-linkedin{
-  background-image: url(./good-smile.gif);
+  background-image: url(./imgs/good-smile.gif);
   background-position: center;
-  padding-left: 400px;
+  padding-left: 300px;
   border-radius: 50px;
  
 }
 .bxl-facebook{
-  background-image: url(./FuLFvah0klRm.gif);
+  background-image: url(./imgs/FuLFvah0klRm.gif);
   background-position: center;
-  padding-left: 400px;
+  padding-left: 300px;
   border-radius: 50px;
  
 }
 .bxl-instagram{
-  background-image: url(./Instagram-logo.jpg);
+  background-image: url(./imgs/Instagram-logo.jpg);
   background-position: center;
-  padding-left: 400px;
+  padding-left:300px;
   border-radius: 50px;
  }
 
@@ -634,6 +634,11 @@ h2{
   display: flex;
   flex-direction: column;
 }
+
+.about__tag{
+  font-size: 1rem;
+}
+
 .projects__container{
   padding: 3rem 0;
   gap: 5rem;
@@ -658,4 +663,14 @@ h2{
 
 }
 
+
+@media screen and (max-width: 568px){
+  .home__image{
+    width: clamp(min(275px, 100%), 48vw, 300px);
+    grid-column: 2/3;
+    grid-row: 1/4;
+    transform: translateY(3.3rem);
+    margin-top: 10px;
+ }
+}
  
