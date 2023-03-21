@@ -529,6 +529,29 @@ h2{
 
 }
 
+
+.bxl-linkedin{
+  background-color: rgb(64, 64, 243);
+  background-position: center;
+
+  border-radius: 50px;
+ 
+}
+.bxl-facebook{
+  background-color: #7eabfa;;
+  background-position: center;
+  
+  border-radius: 50px;
+ 
+}
+.bxl-instagram{
+  background-color: brown;
+  background-position: center;
+ 
+  border-radius: 50px;
+ }
+
+
 /*_-----------------breakpoint-----------------------*/
 
 @media (max-width: 768px) {
