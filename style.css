@@ -566,6 +566,13 @@ h2{
     padding: 4.5rem 1rem 2rem;
     transition: .5s;
   }
+  .home__image{
+    width: clamp(min(375px, 100%), 48vw, 500px);
+    grid-column: 2/3;
+    grid-row: 1/4;
+    transform: translateY(3.3rem);
+    margin-top: 10px;
+ }
 
 }
 
@@ -697,7 +704,7 @@ h2{
 
 @media screen and (max-width: 568px){
   .home__image{
-    width: clamp(min(275px, 100%), 48vw, 300px);
+    width: clamp(min(275px, 100%), 48vw, 500px);
     grid-column: 2/3;
     grid-row: 1/4;
     transform: translateY(3.3rem);
